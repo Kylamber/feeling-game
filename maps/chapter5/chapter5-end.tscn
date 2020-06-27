@@ -1,0 +1,81 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://fonts/NanumPenScript-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://dialogue/dialogue_holder.tscn" type="PackedScene" id=2]
+[ext_resource path="res://tileset/starrybackground.png" type="Texture" id=3]
+[ext_resource path="res://maps/chapter5/chapter5-end.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 24
+font_data = ExtResource( 1 )
+
+[sub_resource type="Animation" id=2]
+resource_name = "bg"
+length = 15.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("TextureRect:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.0169369, 3, 6, 9, 12 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 0.815686, 0.207843, 0.207843, 1 ), Color( 0.254902, 0.207843, 0.815686, 1 ), Color( 0.972549, 1, 0.164706, 1 ), Color( 0.196078, 0.298039, 0.854902, 1 ), Color( 0.443137, 0.85098, 0.313726, 1 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "labelanim"
+tracks/0/type = "value"
+tracks/0/path = NodePath("TextureRect/Label:percent_visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 1.0 ]
+}
+
+[node name="chapter5-end" type="Control"]
+margin_right = 320.0
+margin_bottom = 180.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dialogue_holder" parent="." instance=ExtResource( 2 )]
+dialogue_lines = [ [ "Rapuh terlihatnya", "Kuat seinginnya", "Sedikit tindakannya", "Selamanya dampaknya", "Semoga terkontrol milik kita", "EMOSI" ], [ "Fragile as it seems", "Powerful as it wants", "Little of its actions", "Forever of its impacts", "May we have control over ours", "EMOTION" ] ]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+self_modulate = Color( 0.637092, 0.516154, 0.258602, 1 )
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="TextureRect"]
+margin_right = 320.0
+margin_bottom = 180.0
+custom_fonts/font = SubResource( 1 )
+text = "lorem ipsum dolor sit amet"
+align = 1
+valign = 1
+autowrap = true
+percent_visible = 0.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/bg = SubResource( 2 )
+
+[node name="label" type="AnimationPlayer" parent="."]
+anims/labelanim = SubResource( 3 )

@@ -1,0 +1,13 @@
+{
+    "1":{"text":"Maupun dia telah jauh dariku", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "2":{"text":"Dia tetap mengerti aku", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "3":{"text":"Maupun kamu tidak bisa menjalankan hubungan pacaran lagi dengannya", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "4":{"text":"Pilihanmu bukan itu saja", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "5":{"text":"Apa saja pilihanku?", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "6":{"text":"Dia cemburu karena orang lain dapet bisa membuatmu tersenyum", "command":"", "image_path": "res://sprites/spr_mc/spr_concerned.png"},
+    "7":{"text":"Setelah menjadi pacarmu, sikapnya berbeda daripada ketika berteman", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "8":{"text":"Apa kamu menyarankan untuk menjadi teman lagi?", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "9":{"text":"Kamu akan merindukan harimu sebagai pacarnya", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "10":{"text":"Tapi tidak ada yang lebih baik daripada kembali seperti semula kan?", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "11":{"text":"Akan kucoba", "command":"next_level", "image_path": "res://sprites/spr_patient2/spr_happy.png"}
+}

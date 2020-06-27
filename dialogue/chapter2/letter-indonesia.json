@@ -1,0 +1,10 @@
+{
+    "1":{"text":"Catatan ...", "command":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},
+    "2":{"text":"Sepertinya punya Bu Lien", "command":"", "image_path":"res://sprites/spr_mc/spr_neutral.png"},
+    "3":{"text":"Walaupun dia adalah orang yang baik", "command":"", "image_path":"res://sprites/spr_npc/letter.png"},
+    "4":{"text":"Dia bukan yang seharusnya bersamaku", "command":"", "image_path":"res://sprites/spr_npc/letter.png"},
+    "5":{"text":"Aku tidak merasa terpenuhi bersamanya", "command":"", "image_path":"res://sprites/spr_npc/letter.png"},
+    "6":{"text":"Maafkan aku, tetapi itu merupakan cinta bertepuk sebelah tangan", "command":"", "image_path":"res://sprites/spr_npc/letter.png"},
+    "7":{"text":"Untuk yang kucintai sepenuhnya, Kuharap kau menemukan pasanganmu.", "command":"", "image_path":"res://sprites/spr_npc/letter.png"},
+    "8":{"text":"TTD, Lien", "command":"give_key", "image_path":"res://sprites/spr_npc/letter.png"}
+}

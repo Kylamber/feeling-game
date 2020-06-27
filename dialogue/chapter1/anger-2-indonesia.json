@@ -1,0 +1,57 @@
+{
+    "1": {
+        "text": "Apa lagi ?",
+        "image_path": "res://sprites/spr_patient1/spr_angry.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Aku baru saja bicara dengan temanmu",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "3": {
+        "text": "Terus",
+        "image_path": "res://sprites/spr_patient1/spr_neutral.png",
+        "command": ""
+    },
+    "4": {
+        "text": "Nih, permen",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": ""
+    },
+    "5": {
+        "text": "... makasih",
+        "image_path": "res://sprites/spr_patient1/spr_neutral.png",
+        "command": ""
+    },
+    "6": {
+        "text": "Gimana ? enakan ?",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": ""
+    },
+    "7": {
+        "text": "... ya",
+        "image_path": "res://sprites/spr_patient1/spr_neutral.png",
+        "command": ""
+    },
+    "8": {
+        "text": "Di bully memang gak enak, aku tahu itu",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "9": {
+        "text": "Aku tidak ingin mendengarnya dari seorang psikolog", 
+        "image_path": "res://sprites/spr_patient1/spr_happy.png",
+        "command": ""
+    },
+    "10": {
+        "text": "Hei ...",
+        "image_path": "res://sprites/spr_mc/spr_concerned.png",
+        "command": ""
+    },
+    "11": {
+        "text": "Tapi, seharusnya kamu tidak menyalahkan dirimu sendiri",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": "transition"
+    }
+}

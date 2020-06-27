@@ -1,0 +1,17 @@
+{
+    "1": {
+        "text": "How is it doctor ? Any progress ?",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "2": {
+        "text": "There is, but...",
+        "image_path": "res://sprites/spr_mc/spr_concerned.png",
+        "command": ""
+    },
+    "3": {
+        "text": "I think I need more information to persuade him",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    }
+}

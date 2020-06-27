@@ -1,0 +1,10 @@
+{
+    "1":{"text":"Permisi, Bu Lien?", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "2":{"text":"Ya, apakah kamu dokternya?", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "3":{"text":"Iya", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "4":{"text":"Bisa kita mulai?", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "5":{"text":"Pastinya", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "6":{"text":"Apa yang menjadi masalahnya, Bu Lien?", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "7":{"text":"Dulu saya punya pacar. Saya sangat mencintainya dan dia juga sama", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "8":{"text":"Kita pasangan yang sempurna, sampai suatu hari.... *hiks", "command":"transition", "image_path": "res://sprites/spr_patient2/spr_neutral.png"}
+}

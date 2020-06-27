@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Into the Clockwork.wav-b2f69937178f254f7c7423661a1c7c36.sample"
+
+[deps]
+
+source_file="res://ost/Into the Clockwork.wav"
+dest_files=[ "res://.import/Into the Clockwork.wav-b2f69937178f254f7c7423661a1c7c36.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=false
+edit/loop=true
+compress/mode=0

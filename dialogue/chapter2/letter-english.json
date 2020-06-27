@@ -1,0 +1,10 @@
+{
+    "1":{"text":"A note ...", "command":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},
+    "2":{"text":"It seems to be Ms. Lien's", "command":"", "image_path":"res://sprites/spr_mc/spr_neutral.png"},
+    "3":{"text":"Even though he was a good guy", "command":"", "image_path":"res://sprites/spr_npc/letter.png"},
+    "4":{"text":"He's not who I'm meant to be", "command":"", "image_path":"res://sprites/spr_npc/letter.png"},
+    "5":{"text":"I didn't feel fulfilled when I'm with him", "command":"", "image_path":"res://sprites/spr_npc/letter.png"},
+    "6":{"text":"Forgive me, but it was a one sided love", "command":"", "image_path":"res://sprites/spr_npc/letter.png"},
+    "7":{"text":"To the one I truly love, I hope you've found your pair.", "command":"", "image_path":"res://sprites/spr_npc/letter.png"},
+    "8":{"text":"Sign, Lien", "command":"give_key", "image_path":"res://sprites/spr_npc/letter.png"}
+}

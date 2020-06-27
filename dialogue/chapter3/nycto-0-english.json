@@ -1,0 +1,8 @@
+{
+    "1":{"text":"STAY AWAY FROM ME!", "command":"", "image_path":"res://spries/spr_patient3/spr_angry.png"},
+    "2":{"text":"Hey, hey. Calm down", "command":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},
+    "3":{"text":"THEY'RE EVERYWHERE, HIDING IN THE DARK", "command":"", "image_path":"res://spries/spr_patient3/spr_angry.png"},
+    "4":{"text":"Are you afraid of the dark?", "command":"", "image_path":"res://sprites/spr_mc/spr_neutral.png"},
+    "5":{"text":"WHO ARE YOU", "command":"", "image_path":"res://spries/spr_patient3/spr_angry.png"},
+    "6":{"text":"I'm a psychologist. Come with me, it's brighter in my camp", "command":"transition", "image_path":"res://sprites/spr_mc/spr_happy.png"}
+}

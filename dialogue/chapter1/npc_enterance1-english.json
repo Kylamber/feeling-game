@@ -1,0 +1,17 @@
+{
+    "1": {
+        "text": "Hello, do you know where Mr. Kobus's house is ?",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Yes, it's the gray house at the intersection",
+        "image_path": "res://sprites/spr_npc/npc_male_gray.png",
+        "command": ""
+    },
+    "3": {
+        "text": "Thank you",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": ""
+    }
+}

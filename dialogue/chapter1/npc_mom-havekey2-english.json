@@ -1,0 +1,17 @@
+{
+    "1": {
+        "text": "How is it doctor ? Any progress ?",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Yes, I got it from his friend",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": ""
+    },
+    "3": {
+        "text": "That's good",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    }
+}

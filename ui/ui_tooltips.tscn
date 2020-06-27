@@ -1,0 +1,153 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://fonts/font_nanum.tres" type="DynamicFont" id=1]
+[ext_resource path="res://ui/scripts/ui_tooltips.gd" type="Script" id=2]
+[ext_resource path="res://fonts/font_laquer.tres" type="DynamicFont" id=3]
+[ext_resource path="res://fonts/Quantico-Regular.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://fonts/font_quantico.tres" type="DynamicFont" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 12
+font_data = ExtResource( 4 )
+
+[sub_resource type="Animation" id=2]
+resource_name = "dark_overlay_fade"
+tracks/0/type = "value"
+tracks/0/path = NodePath("control_tooltips/centercontainer_dark_overlay:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("control_tooltips/colorrect_dark_overlay:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+tracks/0/type = "value"
+tracks/0/path = NodePath("control_tooltips/centercontainer_tooltips/label_tooltips:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[node name="ui_tooltips" type="CanvasLayer"]
+script = ExtResource( 2 )
+
+[node name="control_tooltips" type="Control" parent="."]
+light_mask = 0
+margin_right = 320.0
+margin_bottom = 180.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="colorrect_title_screen" type="ColorRect" parent="control_tooltips"]
+margin_right = 320.0
+margin_bottom = 180.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="colorrect_dark_overlay" type="ColorRect" parent="control_tooltips"]
+modulate = Color( 1, 1, 1, 0 )
+light_mask = 0
+margin_right = 320.0
+margin_bottom = 180.0
+color = Color( 0, 0, 0, 0.219608 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="centercontainer_tooltips" type="CenterContainer" parent="control_tooltips"]
+light_mask = 0
+margin_top = 136.0
+margin_right = 320.0
+margin_bottom = 176.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="label_tooltips" type="Label" parent="control_tooltips/centercontainer_tooltips"]
+modulate = Color( 1, 1, 1, 0 )
+light_mask = 0
+margin_left = 84.0
+margin_top = 10.0
+margin_right = 235.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 1 )
+text = "lorem ipsum dolor sit amet"
+
+[node name="centercontainer_title" type="CenterContainer" parent="control_tooltips"]
+margin_right = 320.0
+margin_bottom = 180.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="vbox_title_container" type="VBoxContainer" parent="control_tooltips/centercontainer_title"]
+margin_left = 58.0
+margin_top = 67.0
+margin_right = 261.0
+margin_bottom = 113.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="label_chapter_title" type="Label" parent="control_tooltips/centercontainer_title/vbox_title_container"]
+margin_right = 203.0
+margin_bottom = 24.0
+custom_fonts/font = ExtResource( 5 )
+text = "Lorem ipsum dolor sit amet"
+align = 1
+
+[node name="label_chapter_subtitle" type="Label" parent="control_tooltips/centercontainer_title/vbox_title_container"]
+margin_top = 28.0
+margin_right = 203.0
+margin_bottom = 46.0
+custom_fonts/font = SubResource( 1 )
+align = 1
+
+[node name="centercontainer_dark_overlay" type="CenterContainer" parent="control_tooltips"]
+modulate = Color( 1, 1, 1, 0 )
+light_mask = 0
+margin_right = 320.0
+margin_bottom = 180.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="label_dark_overlay" type="Label" parent="control_tooltips/centercontainer_dark_overlay"]
+light_mask = 0
+margin_left = 60.0
+margin_top = 80.0
+margin_right = 260.0
+margin_bottom = 100.0
+custom_fonts/font = ExtResource( 3 )
+text = "Lorem ipsum dolor sit amet"
+
+[node name="tooltips_animation" type="AnimationPlayer" parent="."]
+anims/dark_overlay_fade = SubResource( 2 )
+anims/tooltips_fade = SubResource( 3 )

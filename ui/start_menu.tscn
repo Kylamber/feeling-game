@@ -1,0 +1,152 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://fonts/font_ubuntu.tres" type="DynamicFont" id=1]
+[ext_resource path="res://ui/scripts/start_menu.gd" type="Script" id=2]
+[ext_resource path="res://fonts/font_quantico.tres" type="DynamicFont" id=3]
+[ext_resource path="res://ui/void.png" type="Texture" id=4]
+[ext_resource path="res://sfx/menu_038.wav" type="AudioStream" id=5]
+[ext_resource path="res://ui/mc.png" type="Texture" id=6]
+[ext_resource path="res://ui/wrath_sword.png" type="Texture" id=7]
+[ext_resource path="res://tileset/starrybackground.png" type="Texture" id=8]
+
+[node name="start_menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="vbox_interface" type="VBoxContainer" parent="."]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 98.0
+margin_bottom = 158.0
+custom_constants/separation = 10
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="label_title" type="Label" parent="vbox_interface"]
+margin_right = 82.0
+margin_bottom = 24.0
+custom_fonts/font = ExtResource( 3 )
+text = "Emosi"
+align = 1
+uppercase = true
+
+[node name="vbox_buttons" type="VBoxContainer" parent="vbox_interface"]
+margin_top = 34.0
+margin_right = 82.0
+margin_bottom = 140.0
+
+[node name="btn_new_game" type="Button" parent="vbox_interface/vbox_buttons"]
+margin_right = 82.0
+margin_bottom = 18.0
+custom_fonts/font = ExtResource( 1 )
+text = "New Game"
+flat = true
+align = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btn_continue" type="Button" parent="vbox_interface/vbox_buttons"]
+margin_top = 22.0
+margin_right = 82.0
+margin_bottom = 40.0
+custom_fonts/font = ExtResource( 1 )
+text = "Continue"
+flat = true
+align = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btn_settings" type="Button" parent="vbox_interface/vbox_buttons"]
+margin_top = 44.0
+margin_right = 82.0
+margin_bottom = 62.0
+custom_fonts/font = ExtResource( 1 )
+text = "Settings"
+flat = true
+align = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btn_credits" type="Button" parent="vbox_interface/vbox_buttons"]
+margin_top = 66.0
+margin_right = 82.0
+margin_bottom = 84.0
+custom_fonts/font = ExtResource( 1 )
+text = "Credits"
+flat = true
+align = 0
+
+[node name="btn_quit" type="Button" parent="vbox_interface/vbox_buttons"]
+margin_top = 88.0
+margin_right = 82.0
+margin_bottom = 106.0
+custom_fonts/font = ExtResource( 1 )
+text = "Quit"
+flat = true
+align = 0
+
+[node name="sfx_menu" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+
+[node name="node_art" type="Control" parent="."]
+margin_right = 320.0
+margin_bottom = 180.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="void" type="TextureRect" parent="node_art"]
+margin_left = 216.0
+margin_right = 311.999
+margin_bottom = 100.0
+texture = ExtResource( 4 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="mc" type="TextureRect" parent="node_art"]
+margin_left = 168.0
+margin_top = 32.0
+margin_right = 312.0
+margin_bottom = 184.0
+rect_scale = Vector2( 1.00735, 1.00735 )
+texture = ExtResource( 6 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="wrath_sword" type="TextureRect" parent="node_art"]
+margin_left = 152.0
+margin_top = 16.0
+margin_right = 284.002
+margin_bottom = 140.0
+texture = ExtResource( 7 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="vbox_interface/vbox_buttons/btn_new_game" to="." method="_on_btn_new_game_pressed"]
+[connection signal="pressed" from="vbox_interface/vbox_buttons/btn_continue" to="." method="_on_btn_continue_pressed"]
+[connection signal="pressed" from="vbox_interface/vbox_buttons/btn_settings" to="." method="_on_btn_settings_pressed"]
+[connection signal="pressed" from="vbox_interface/vbox_buttons/btn_credits" to="." method="_on_btn_credits_pressed"]
+[connection signal="pressed" from="vbox_interface/vbox_buttons/btn_quit" to="." method="_on_btn_quit_pressed"]

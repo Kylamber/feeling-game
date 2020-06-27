@@ -1,0 +1,57 @@
+{
+    "1": {
+        "text": "What again ?",
+        "image_path": "res://sprites/spr_patient1/spr_angry.png",
+        "command": ""
+    },
+    "2": {
+        "text": "I spoke to your friend",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "3": {
+        "text": "So ?",
+        "image_path": "res://sprites/spr_patient1/spr_neutral.png",
+        "command": ""
+    },
+    "4": {
+        "text": "Here, candy",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": ""
+    },
+    "5": {
+        "text": "... thanks",
+        "image_path": "res://sprites/spr_patient1/spr_neutral.png",
+        "command": ""
+    },
+    "6": {
+        "text": "How is it ? better ?",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": ""
+    },
+    "7": {
+        "text": "... yea",
+        "image_path": "res://sprites/spr_patient1/spr_neutral.png",
+        "command": ""
+    },
+    "8": {
+        "text": "It's not good being bullied, I know that",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "9": {
+        "text": "I don't want to hear that from a psychologist",
+        "image_path": "res://sprites/spr_patient1/spr_happy.png",
+        "command": ""
+    },
+    "10": {
+        "text": "Hey ...",
+        "image_path": "res://sprites/spr_mc/spr_concerned.png",
+        "command": ""
+    },
+    "11": {
+        "text": "But, you shouldn't blame yourself for that though",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": "transition"
+    }
+}

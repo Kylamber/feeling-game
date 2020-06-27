@@ -1,0 +1,10 @@
+{
+    "1":{"text":"Excuse me, Ms. Lien?", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "2":{"text":"Yes, are you the doctor?", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "3":{"text":"Yes, I am", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "4":{"text":"May we begin?", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "5":{"text":"Of course", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "6":{"text":"What seems to be your problem, Ms. Lien?", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "7":{"text":"Once, I had a man. I liked him very much and so does he", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "8":{"text":"We were the perfect lover together, until one day.... *sobs", "command":"transition", "image_path": "res://sprites/spr_patient2/spr_neutral.png"}
+}

@@ -1,0 +1,7 @@
+{
+    "1":{"text":"How can I cope with this doctor?", "command":"", "image_path":"res://spries/spr_patient3/spr_neutral.png"},
+    "2":{"text":"Try staying in a slightly lit room", "command":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},
+    "3":{"text":"and make it darker after you're comfortable with it", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "4":{"text":"this should help quite a bit", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "5":{"text":"Thank you very much, doctor", "command":"next_level", "image_path":"res://spries/spr_patient3/spr_happy.png"}
+}

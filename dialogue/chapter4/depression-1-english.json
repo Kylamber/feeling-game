@@ -1,0 +1,8 @@
+{
+    "1":{"text":"I heard that it was because of your father?", "command":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},        
+    "2":{"text":"I wanted to see him again", "command":"", "image_path":"res://sprites/spr_patient4/spr_sad.png"},
+    "3":{"text":"Now that he's gone ...", "command":"", "image_path":"res://sprites/spr_patient4/spr_neutral.png"},
+    "4":{"text":"Hey now it's fine, don't be sad", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "5":{"text":"What do you know, you're a psychologist", "command":"", "image_path":"res://sprites/spr_patient4/spr_neutral.png"},
+    "6":{"text":"You people only knows the good side of things.", "command":"transition", "image_path":"res://sprites/spr_patient4/spr_sad.png"}
+}

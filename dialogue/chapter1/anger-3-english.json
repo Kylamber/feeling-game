@@ -1,0 +1,22 @@
+{
+    "1": {
+        "text": "Thank you, doctor",
+        "image_path": "res://sprites/spr_patient1/spr_happy.png",
+        "command": ""
+    },
+    "2": {
+        "text": "I'm sorry for earlier",
+        "image_path": "res://sprites/spr_patient1/spr_neutral.png",
+        "command": ""
+    },
+    "3": {
+        "text": "I realize now",
+        "image_path": "res://sprites/spr_patient1/spr_happy.png",
+        "command": ""
+    },
+    "4": {
+        "text": "I should just accept it and not blame myself for it",
+        "image_path": "res://sprites/spr_patient1/spr_happy.png",
+        "command": "next_level"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "1": {
+        "text": "Hello, doctor. How's he ?",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    },
+    "2": {
+        "text": "I'm able to know what his problem is",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "3": {
+        "text": "but it's not enough to persuade him",
+        "image_path": "res://sprites/spr_mc/spr_concerned.png",
+        "command": ""
+    },
+    "4": {
+        "text": "do you have anything that can help me persuade him ?",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": ""
+    },
+    "5": {
+        "text": "He's been through a lot",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    },
+    "6": {
+        "text": "The anger that has built up inside him has probably reached its peak",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    },
+    "7": {
+        "text": "Calm him down, give him some candy, here",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    },
+    "8": {
+        "text": "Thank you",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": "give_key"
+    }
+}

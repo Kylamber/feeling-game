@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/The Propehecy.wav-78d2f299a22bb3943db34a426624ebe6.sample"
+
+[deps]
+
+source_file="res://ost/The Propehecy.wav"
+dest_files=[ "res://.import/The Propehecy.wav-78d2f299a22bb3943db34a426624ebe6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=false
+edit/loop=true
+compress/mode=0

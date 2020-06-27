@@ -1,0 +1,47 @@
+{
+    "1": {
+        "text": "What do you want ?",
+        "image_path": "res://sprites/spr_patient1/spr_angry.png",
+        "command": ""
+    },
+    "2": {
+        "text": "I heard that you've been bullied",
+        "image_path": "res://sprites/spr_mc/spr_concerned.png",
+        "command": ""
+    },
+    "3": {
+        "text": "...",
+        "image_path": "res://sprites/spr_patient1/spr_neutral.png",
+        "command": ""
+    },
+    "4": {
+        "text": "and you've been hard to yourself because of that",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "5": {
+        "text": "Yea, so what ?",
+        "image_path": "res://sprites/spr_patient1/spr_angry.png",
+        "command": ""
+    },
+    "6": {
+        "text": "Look, I know how it felt to be bullied",
+        "image_path": "res://sprites/spr_mc/spr_concerned.png",
+        "command": ""
+    },
+    "7": {
+        "text": "but, you don't need to be angry to yourself for this",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "8": {
+        "text": "Oh so cliche",
+        "image_path": "res://sprites/spr_patient1/spr_angry.png",
+        "command": ""
+    },
+    "9": {
+        "text": "you telling me that wont make anything BETTER",
+        "image_path": "res://sprites/spr_patient1/spr_angry.png",
+        "command": "transition"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "1":{"text":"I found this near your house", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "2":{"text":"That's supposed to be in the trash", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "3":{"text":"Are you feeling emptiness inside of you?", "command":"", "image_path": "res://sprites/spr_mc/spr_concerned.png"},
+    "4":{"text":"You've failed moving on from him?", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "5":{"text":"I thought just by having a new lover would help me move on from him", "command":"", "image_path": "res://sprites/spr_patient2/spr_happy.png"},
+    "6":{"text":"But it didn't work", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "7":{"text":"Nothing could ever fill my desires", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "8":{"text":"I have lost entirely that feeling of fulfillment", "command":"transition", "image_path": "res://sprites/spr_patient2/spr_neutral.png"}
+}

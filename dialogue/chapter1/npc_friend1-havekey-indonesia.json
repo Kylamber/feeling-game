@@ -1,0 +1,12 @@
+{
+    "1": {
+        "text": "Halo dokter",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Cobalah berbicara dengannya",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    }
+}

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Soft Tension.wav-5525181be635e733c275959cdf1818fa.sample"
+
+[deps]
+
+source_file="res://ost/Soft Tension.wav"
+dest_files=[ "res://.import/Soft Tension.wav-5525181be635e733c275959cdf1818fa.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=false
+edit/loop=true
+compress/mode=0

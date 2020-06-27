@@ -1,0 +1,12 @@
+{
+    "1": {
+        "text": "Halo dokter",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Coba tanyakan tentang ini padanya",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    }
+}

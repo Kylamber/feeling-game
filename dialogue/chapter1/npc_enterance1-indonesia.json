@@ -1,0 +1,17 @@
+{
+    "1": {
+        "text": "Halo, rumah pak Kobus di mana ya ?",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Ah, itu rumah abu-abu di pertigaan",
+        "image_path": "res://sprites/spr_npc/npc_male_gray.png",
+        "command": ""
+    },
+    "3": {
+        "text": "Terima kasih",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": ""
+    }
+}

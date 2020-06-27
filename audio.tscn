@@ -1,0 +1,64 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://audio.gd" type="Script" id=1]
+[ext_resource path="res://ost/Tundra.wav" type="AudioStream" id=2]
+[ext_resource path="res://ost/Into the Clockwork.wav" type="AudioStream" id=3]
+[ext_resource path="res://ost/09battle2.wav" type="AudioStream" id=4]
+[ext_resource path="res://ost/06castle1.wav" type="AudioStream" id=5]
+[ext_resource path="res://ost/02store2.wav" type="AudioStream" id=6]
+[ext_resource path="res://ost/main_theme_or_character_theme.wav" type="AudioStream" id=7]
+[ext_resource path="res://ost/01town1.wav" type="AudioStream" id=8]
+[ext_resource path="res://ost/A Werewolf's Lullaby.wav" type="AudioStream" id=9]
+[ext_resource path="res://ost/06castle2.wav" type="AudioStream" id=10]
+[ext_resource path="res://ost/The Propehecy.wav" type="AudioStream" id=11]
+[ext_resource path="res://ost/09battle8.wav" type="AudioStream" id=12]
+[ext_resource path="res://ost/09battle3.wav" type="AudioStream" id=13]
+[ext_resource path="res://ost/Soft Tension.wav" type="AudioStream" id=14]
+
+[node name="audio" type="Node"]
+script = ExtResource( 1 )
+
+[node name="bgm_battle2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -10.0
+
+[node name="bgm_battle8" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 12 )
+volume_db = -10.0
+
+[node name="bgm_battle3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 13 )
+
+[node name="bgm_castle1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = -10.0
+
+[node name="bgm_castle2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 10 )
+volume_db = -10.0
+
+[node name="bgm_store2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = -10.0
+
+[node name="bgm_town1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 8 )
+volume_db = -10.0
+
+[node name="bgm_tundra" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+
+[node name="bgm_clockwork" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[node name="bgm_werewolf" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+
+[node name="bgm_propehecy" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 11 )
+
+[node name="bgm_main_menu" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+
+[node name="bgm_softtension" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 14 )

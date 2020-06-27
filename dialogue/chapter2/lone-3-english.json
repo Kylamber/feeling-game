@@ -1,0 +1,13 @@
+{
+    "1":{"text":"Though he is now further away from me", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "2":{"text":"He still understands me", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "3":{"text":"Well, even if you can't have a lover's relationship with him", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "4":{"text":"It's not the only option", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "5":{"text":"What are my other options?", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "6":{"text":"He was jealous that someone was able to make you smile", "command":"", "image_path": "res://sprites/spr_mc/spr_concerned.png"},
+    "7":{"text":"After becoming your lover, he acted differently than when you were friends", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "8":{"text":"Are you suggesting that I should become friends with him again?", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "9":{"text":"You will miss your days as a lover", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "10":{"text":"But nothing is better than returning to normal again right?", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "11":{"text":"I'll try", "command":"next_level", "image_path": "res://sprites/spr_patient2/spr_happy.png"}
+}

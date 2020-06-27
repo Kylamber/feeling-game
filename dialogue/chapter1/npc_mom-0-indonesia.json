@@ -1,0 +1,17 @@
+{
+    "1": {
+        "text": "Dokter, terima kasih sudah datang",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Coba bicara dengan anakku terlebih dahulu",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "3": {
+        "text": "Dia ada di rumah abu-abu dekat pertigaan",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    }
+}

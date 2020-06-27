@@ -1,0 +1,17 @@
+{
+    "1": {
+        "text": "Bagaimana dok ? Ada kemajuan ?",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Ada, saya dapat dari temannya",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": ""
+    },
+    "3": {
+        "text": "Baguslah",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "1":{"text":"Dokter?", "command":"", "image_path":""},
+    "2":{"text":"Ya, apa anda Bu Lara?", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "3":{"text":"Yes, saya Lara", "command":"", "image_path":""},
+    "4":{"text":"Anak saya, dia di rumah putih dekat belokan", "command":"", "image_path":""}
+}

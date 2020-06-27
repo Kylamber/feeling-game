@@ -1,0 +1,23 @@
+[gd_resource type="ParticlesMaterial" load_steps=3 format=2]
+
+[sub_resource type="Curve" id=1]
+min_value = -200.0
+max_value = 200.0
+_data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 0.172619, -53.6364 ), 2494.55, 2494.55, 0, 0, Vector2( 0.321429, 40.9091 ), 1896.36, 1896.36, 0, 0, Vector2( 0.678571, -103.636 ), 0.0, 0.0, 0, 0, Vector2( 1, 1 ), 0.0, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=2]
+curve = SubResource( 1 )
+
+[resource]
+emission_shape = 2
+emission_box_extents = Vector3( 180, 1, 1 )
+flag_disable_z = true
+gravity = Vector3( 0, 98, 0 )
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+tangential_accel = 40.0
+tangential_accel_random = 1.0
+tangential_accel_curve = SubResource( 2 )
+scale = 3.0
+scale_random = 1.0
+color = Color( 0.815686, 0.262745, 0.0823529, 1 )

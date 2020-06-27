@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://sprites/sprsheet_health.png" type="Texture" id=1]
+[ext_resource path="res://ui/scripts/ui_hud.gd" type="Script" id=2]
+
+[node name="ui_hud" type="CanvasLayer"]
+script = ExtResource( 2 )
+
+[node name="Control" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="blackbar" type="ColorRect" parent="Control"]
+margin_right = 320.0
+margin_bottom = 8.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="blackbar2" type="ColorRect" parent="Control"]
+margin_top = 171.874
+margin_right = 320.0
+margin_bottom = 179.874
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="spr_heart" type="Sprite" parent="."]
+light_mask = 0
+position = Vector2( 56, 16 )
+texture = ExtResource( 1 )
+vframes = 15

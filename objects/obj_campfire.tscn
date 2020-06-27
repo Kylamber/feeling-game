@@ -1,0 +1,67 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://tileset/grassy_lands.png" type="Texture" id=1]
+[ext_resource path="res://objects/scripts/obj_campfire.gd" type="Script" id=2]
+[ext_resource path="res://sfx/Retro Swooosh 16.wav" type="AudioStream" id=3]
+[ext_resource path="res://effects/lighting/radial_lighting.png" type="Texture" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 5.42838, 1.37448 )
+
+[sub_resource type="Gradient" id=2]
+colors = PoolColorArray( 0.196078, 0.678431, 0.866667, 1, 1, 1, 1, 1 )
+
+[sub_resource type="GradientTexture" id=3]
+gradient = SubResource( 2 )
+
+[sub_resource type="ParticlesMaterial" id=4]
+lifetime_randomness = 1.0
+flag_disable_z = true
+direction = Vector3( 0, -1, 0 )
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 10.0
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+scale = 2.0
+scale_random = 1.0
+color_ramp = SubResource( 3 )
+
+[sub_resource type="CircleShape2D" id=5]
+radius = 14.7682
+
+[node name="obj_campfire" type="StaticBody2D"]
+collision_layer = 8
+collision_mask = 0
+script = ExtResource( 2 )
+
+[node name="spr_campfire" type="Sprite" parent="."]
+position = Vector2( 0.197914, 2.44091 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 272, 96, 16, 16 )
+
+[node name="light_campfire" type="Light2D" parent="."]
+visible = false
+texture = ExtResource( 4 )
+color = Color( 0.184314, 0.556863, 0.670588, 1 )
+
+[node name="col_campfire" type="CollisionShape2D" parent="."]
+position = Vector2( -0.146191, 5.14736 )
+shape = SubResource( 1 )
+
+[node name="particle_campfire" type="Particles2D" parent="."]
+position = Vector2( 0, 1.97912 )
+emitting = false
+amount = 13
+process_material = SubResource( 4 )
+
+[node name="area_detect_player" type="Area2D" parent="."]
+collision_layer = 0
+
+[node name="col_area_detect_player" type="CollisionShape2D" parent="area_detect_player"]
+position = Vector2( -0.19791, 1.58329 )
+shape = SubResource( 5 )
+
+[node name="sfx_firepoof" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 3 )
+[connection signal="body_entered" from="area_detect_player" to="." method="_on_area_detect_player_body_entered"]

@@ -1,0 +1,22 @@
+{
+    "1": {
+        "text": "Terima kasih, dokter",
+        "image_path": "res://sprites/spr_patient1/spr_happy.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Maaf tentang yang barusan",
+        "image_path": "res://sprites/spr_patient1/spr_neutral.png",
+        "command": ""
+    },
+    "3": {
+        "text": "Aku mengerti sekarang",
+        "image_path": "res://sprites/spr_patient1/spr_happy.png",
+        "command": ""
+    },
+	"4": {
+        "text": "Seharusnya kuterima saja dan tidak menyalahkan diri untuk itu",
+        "image_path": "res://sprites/spr_patient1/spr_happy.png",
+        "command": "next_level"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "1":{"text":"Doctor?", "command":"", "image_path":""},
+    "2":{"text":"Yes, are you Ms. Lara?", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "3":{"text":"Yes, I am", "command":"", "image_path":""},
+    "4":{"text":"My daughter, she's at the white house next to the turn", "command":"", "image_path":""},
+    "5":{"text":"Namanya Tiara", "command":"", "image_path":""}
+}

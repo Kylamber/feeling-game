@@ -1,0 +1,10 @@
+{
+    "1":{"text":"Saya mencari tahu. Pacar anda cemburu dengan teman anda?", "command":"", "image_path": "res://sprites/spr_mc/spr_concerned.png"},
+    "2":{"text":"Iya, dia cemburu", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "3":{"text":"Sebelumnya, saya tidak tahu mengapa dia menjaga jarak denganku", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "4":{"text":"Dia melakukannya karena dia pikir dia tidak cukup bagiku", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "5":{"text":"dan saya lebih mending dengan orang lain", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "6":{"text":"Apa hubungan anda dengannya sekarang?", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "7":{"text":"Kita sudah jarang berbicara.", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "8":{"text":"Setiap hari, dia hanya semakin menjauh dariku", "command":"transition", "image_path": "res://sprites/spr_patient2/spr_neutral.png"}
+}

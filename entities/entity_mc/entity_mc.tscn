@@ -1,0 +1,130 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://sprites/spr_mc/run3.png" type="Texture" id=1]
+[ext_resource path="res://sprites/spr_mc/run4.png" type="Texture" id=2]
+[ext_resource path="res://sprites/spr_mc/idle1.png" type="Texture" id=3]
+[ext_resource path="res://sprites/spr_mc/idle2.png" type="Texture" id=4]
+[ext_resource path="res://sprites/spr_mc/run1.png" type="Texture" id=5]
+[ext_resource path="res://sprites/spr_mc/run2.png" type="Texture" id=6]
+[ext_resource path="res://entities/scripts/entity_mc.gd" type="Script" id=7]
+[ext_resource path="res://sprites/character_shadow.png" type="Texture" id=8]
+[ext_resource path="res://ui/ui_hud.tscn" type="PackedScene" id=9]
+[ext_resource path="res://sfx/feet_08.wav" type="AudioStream" id=10]
+[ext_resource path="res://sfx/hit_009.wav" type="AudioStream" id=11]
+[ext_resource path="res://sfx/explosion_16.wav" type="AudioStream" id=12]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 1 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "run",
+"speed": 10.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 4.73504, 1.99228 )
+
+[sub_resource type="Animation" id=3]
+resource_name = "invulnerable"
+length = 0.2
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("spr_mc:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("spr_shadow:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "rest"
+tracks/0/type = "value"
+tracks/0/path = NodePath("spr_mc:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("spr_shadow:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[node name="entity_mc" type="KinematicBody2D"]
+collision_mask = 13
+script = ExtResource( 7 )
+
+[node name="cam_mc" type="Camera2D" parent="."]
+current = true
+smoothing_enabled = true
+editor_draw_limits = true
+
+[node name="spr_mc" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "run"
+
+[node name="col_mc" type="CollisionShape2D" parent="."]
+position = Vector2( -0.486099, 5.8506 )
+shape = SubResource( 2 )
+
+[node name="spr_shadow" type="Sprite" parent="."]
+position = Vector2( 0.875244, 1.20229 )
+texture = ExtResource( 8 )
+
+[node name="timer_invulnerable" type="Timer" parent="."]
+one_shot = true
+
+[node name="animation_entity_mc" type="AnimationPlayer" parent="."]
+anims/invulnerable = SubResource( 3 )
+anims/rest = SubResource( 4 )
+
+[node name="ui_hud" parent="." instance=ExtResource( 9 )]
+layer = 0
+
+[node name="sfx" type="Node2D" parent="."]
+
+[node name="audio_hit" type="AudioStreamPlayer2D" parent="sfx"]
+stream = ExtResource( 11 )
+
+[node name="audio_walk" type="AudioStreamPlayer2D" parent="sfx"]
+stream = ExtResource( 10 )
+
+[node name="audio_shoot" type="AudioStreamPlayer2D" parent="sfx"]
+stream = ExtResource( 12 )
+[connection signal="health_changed" from="." to="ui_hud" method="_on_entity_mc_health_changed"]
+[connection signal="timeout" from="timer_invulnerable" to="." method="_on_timer_invulnerable_timeout"]

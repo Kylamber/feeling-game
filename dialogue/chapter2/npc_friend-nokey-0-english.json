@@ -1,0 +1,7 @@
+{
+    "1":{"text":"Hello, excuse me", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "2":{"text":"Yes?", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "3":{"text":"Do you know where Ms. Lien's house is?", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "4":{"text":"It's at the end of west side", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "5":{"text":"Thank you", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"}
+}

@@ -1,0 +1,8 @@
+{
+    "1":{"text":"Hello Tiara, I'm a psychologist sent by your mother", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "2":{"text":"...", "command":"", "image_path":"res://sprites/spr_patient4/spr_sad.png"},
+    "3":{"text":"What is bothering you?", "command":"", "image_path":"res://sprites/spr_patient4/spr_sad.png"},
+    "4":{"text":"...", "command":"", "image_path":"res://sprites/spr_patient4/spr_sad.png"},
+    "5":{"text":"Come on, why wont you talk", "command":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},
+    "6":{"text":"...", "command":"transition", "image_path":"res://sprites/spr_patient4/spr_sad.png"}
+}

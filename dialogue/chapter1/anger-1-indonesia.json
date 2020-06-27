@@ -1,0 +1,47 @@
+{
+    "1": {
+        "text": "Mau apa ?",
+        "image_path": "res://sprites/spr_patient1/spr_angry.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Ku dengar kamu di bully ?",
+        "image_path": "res://sprites/spr_mc/spr_concerned.png",
+        "command": ""
+    },
+    "3": {
+        "text": "...",
+        "image_path": "res://sprites/spr_patient1/spr_neutral.png",
+        "command": ""
+    },
+    "4": {
+        "text": "dan kamu marah ke dirimu sendiri karena itu ?",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "5": {
+        "text": "Ya, terus ?",
+        "image_path": "res://sprites/spr_patient1/spr_angry.png",
+        "command": ""
+    },
+    "6": {
+        "text": "Gini, aku tahu rasanya di bully seperti apa",
+        "image_path": "res://sprites/spr_mc/spr_concerned.png",
+        "command": ""
+    },
+    "7": {
+        "text": "tapi, kamu tidak perlu marah pada dirimu sendiri karena ini",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "8": {
+        "text": "Oh sangat klise",
+        "image_path": "res://sprites/spr_patient1/spr_angry.png",
+        "command": ""
+    },
+    "9": {
+        "text": "kau memberi tahu aku itu tidak membuat apapun LEBIH BAIK",
+        "image_path": "res://sprites/spr_patient1/spr_angry.png",
+        "command": "transition"
+    }
+}

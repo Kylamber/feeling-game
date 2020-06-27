@@ -1,0 +1,10 @@
+{
+    "1":{"text":"You can't stay like this for long", "command":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},
+    "2":{"text":"Everybody has to go sooner or later", "command":"", "iamge_path":"res://sprites/spr_mc/spr_neutral.png"},
+    "3":{"text":"I KNOW, BUT WHY IT MUST BE NOW!", "command":"", "image_path":"res://sprites/spr_patient4/spr_sad.png"},
+    "4":{"text":"...", "command":"", "image_path":"res://sprites/spr_mc/spr_neutral.png"},
+    "5":{"text":"EVERYTHING IS IN GRAYSCALE, I CAN'T FEEL COLOUR ANYMORE", "command":"", "image_path":"res://sprites/spr_patient4/spr_sad.png"},
+    "6":{"text":"Hey, even if you have lost one, you can't ignore the other", "command":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},
+    "7":{"text":"What about how she feels for you, what if she lost the 'you' ", "command":"", "image_path":"res://sprites/spr_mc/spr_neutral.png"},
+    "8":{"text":"I DON'T KNOW", "command":"transition", "image_path":"res://sprites/spr_patient4/spr_sad.png"}
+}

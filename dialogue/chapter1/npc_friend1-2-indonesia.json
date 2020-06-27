@@ -1,0 +1,42 @@
+{
+    "1": {
+        "text": "Halo, dokter. Bagaimana dia ?",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Saya tahu apa masalahnya",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "3": {
+        "text": "tapi itu tidak cukup untuk membujuknya",
+        "image_path": "res://sprites/spr_mc/spr_concerned.png",
+        "command": ""
+    },
+    "4": {
+        "text": "apakah kamu punya sesuatu yang bisa membantuku membujuknya ?",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": ""
+    },
+    "5": {
+        "text": "Dia sudah melalui banyak hal",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    },
+    "6": {
+        "text": "Amarah yang terkumpul dalamnya mungkin sudah mencapai puncaknya",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    },
+    "7": {
+        "text": "Tenangkan dia, berikan permen. Nih",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    },
+    "8": {
+        "text": "Terima kasih",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": "give_key"
+		}
+}

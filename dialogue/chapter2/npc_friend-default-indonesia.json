@@ -1,0 +1,4 @@
+{
+    "1":{"text":"Halo dokter", "command":"", "image_path":"res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "2":{"text":"Semoga sukses menyembuhkannya", "command":"", "image_path":"res://sprites/spr_npc/npc_female_winter_brown.png"}
+}

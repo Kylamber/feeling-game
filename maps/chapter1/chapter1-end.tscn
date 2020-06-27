@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://maps/chapter-end.tscn" type="PackedScene" id=1]
+
+[node name="chapter1-end" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="chapter-end" parent="." instance=ExtResource( 1 )]
+title = "Chapter 1"
+subtitle = "End"
+path = "res://maps/chapter2/chapter2-1.tscn"
+loc = Vector2( 88, 72 )

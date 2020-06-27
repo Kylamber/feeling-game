@@ -1,0 +1,8 @@
+{
+    "1":{"text":"Halo Tiara, saya psikolog yang dikirim ibumu", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "2":{"text":"...", "command":"", "image_path":"res://sprites/spr_patient4/spr_sad.png"},
+    "3":{"text":"Apa masalahmu?", "command":"", "image_path":"res://sprites/spr_patient4/spr_sad.png"},
+    "4":{"text":"...", "command":"", "image_path":"res://sprites/spr_patient4/spr_sad.png"},
+    "5":{"text":"Ayolah, kenapa kamu tidak mau berbicara?", "command":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},
+    "6":{"text":"...", "command":"transition", "image_path":"res://sprites/spr_patient4/spr_sad.png"}
+}

@@ -1,0 +1,10 @@
+{
+    "1":{"text":"I know that I shouldn't but still", "command":"", "image_path":"res://sprites/spr_patient4/spr_sad.png"},
+    "2":{"text":"Being sad is okay, but going into that grayscale world", "command":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},
+    "3":{"text":"It's not something to scoff at", "command":"", "image_path":"res://sprites/spr_mc/spr_neutral.png"},
+    "4":{"text":"Allright...", "command":"", "image_path":"res://sprites/spr_patient4/spr_sad.png"},
+    "5":{"text":"Even if he's not here anymore. He'll always be in your heart", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "6":{"text":"It'll make him sad if you stay like this.", "comamnd":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},
+    "7":{"text":"Do him a favour, be happy for him", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "8":{"text":"Okay", "command":"next_level", "image_path":"res://sprites/spr_patient4/spr_happy.png"}
+}

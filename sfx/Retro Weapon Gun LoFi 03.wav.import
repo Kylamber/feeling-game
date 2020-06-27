@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Retro Weapon Gun LoFi 03.wav-2c7ef6e199678bd5e0cf15aff5cdb627.sample"
+
+[deps]
+
+source_file="res://sfx/Retro Weapon Gun LoFi 03.wav"
+dest_files=[ "res://.import/Retro Weapon Gun LoFi 03.wav-2c7ef6e199678bd5e0cf15aff5cdb627.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

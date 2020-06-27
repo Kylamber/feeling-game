@@ -1,0 +1,17 @@
+{
+    "1": {
+        "text": "Halo dokter",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Sebaiknya bicara dengan ibunya terlebih dahulu",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    },
+    "3": {
+        "text": "Dia ada di sekitar danau",
+        "image_path": "res://sprites/spr_npc/npc_male_blue.png",
+        "command": ""
+    }
+}

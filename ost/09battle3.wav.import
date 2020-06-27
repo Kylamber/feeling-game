@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/09battle3.wav-9f4576076d735e46f68720dacc5bc145.sample"
+
+[deps]
+
+source_file="res://ost/09battle3.wav"
+dest_files=[ "res://.import/09battle3.wav-9f4576076d735e46f68720dacc5bc145.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=false
+edit/loop=true
+compress/mode=0

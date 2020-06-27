@@ -1,0 +1,42 @@
+{
+    "1": {
+        "text": "Ah, doctor.",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "2": {
+        "text": "How's he doing ?",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "3": {
+        "text": "It's tough, he won't tell me anything.",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "4": {
+        "text": "I can't proceed further to his feelings",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "5": {
+        "text": "I've been told that he was bullied",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "6": {
+        "text": "He must've been angry to himself",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "7": {
+        "text": "I see",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "8": {
+        "text": "Thank you ma'am",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": "give_key"
+    }
+}

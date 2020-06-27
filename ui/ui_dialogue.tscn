@@ -1,0 +1,83 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://ui/dialogue/dialogue_box.png" type="Texture" id=1]
+[ext_resource path="res://fonts/NanumPenScript-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://ui/scripts/ui_dialogue.gd" type="Script" id=3]
+[ext_resource path="res://sfx/menu_097.wav" type="AudioStream" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 12
+extra_spacing_top = -2
+extra_spacing_bottom = -2
+font_data = ExtResource( 2 )
+
+[sub_resource type="Animation" id=2]
+tracks/0/type = "value"
+tracks/0/path = NodePath("control_dialogue/dialogue_container/dialogue_texture/dialogue_text:percent_visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 1.0 ]
+}
+
+[node name="ui_dialogue" type="CanvasLayer"]
+script = ExtResource( 3 )
+
+[node name="control_dialogue" type="Control" parent="."]
+margin_right = 320.0
+margin_bottom = 180.0
+rect_clip_content = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dialogue_container" type="CenterContainer" parent="control_dialogue"]
+margin_right = 320.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dialogue_texture" type="TextureRect" parent="control_dialogue/dialogue_container"]
+light_mask = 0
+margin_right = 320.0
+margin_bottom = 80.0
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dialogue_text" type="Label" parent="control_dialogue/dialogue_container/dialogue_texture"]
+light_mask = 0
+margin_left = 100.0
+margin_top = 22.0
+margin_right = 281.0
+margin_bottom = 58.0
+custom_fonts/font = SubResource( 1 )
+autowrap = true
+percent_visible = 0.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dialogue_sprite" type="TextureRect" parent="control_dialogue/dialogue_container/dialogue_texture"]
+margin_left = 46.0
+margin_top = 18.0
+margin_right = 90.0
+margin_bottom = 62.0
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dialogue_animation" type="AnimationPlayer" parent="."]
+anims/dialogue_text_show = SubResource( 2 )
+
+[node name="audio_dialogue" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = 5.0

@@ -1,0 +1,17 @@
+{
+    "1": {
+        "text": "Doctor, thanks for coming",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "2": {
+        "text": "You should speak with my son first",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "3": {
+        "text": "He's at the gray house by the intersection",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    }
+}

@@ -1,0 +1,72 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://maps/chapter1/scripts/chapter1-end.gd" type="Script" id=1]
+[ext_resource path="res://fonts/font_quantico.tres" type="DynamicFont" id=2]
+
+[sub_resource type="Animation" id=1]
+resource_name = "fade"
+tracks/0/type = "value"
+tracks/0/path = NodePath("CenterContainer/VBoxContainer:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[node name="chapter-end" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="colorrect_background" type="ColorRect" parent="."]
+margin_right = 320.0
+margin_bottom = 180.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="anim_end_title" type="AnimationPlayer" parent="."]
+anims/fade = SubResource( 1 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+margin_right = 320.0
+margin_bottom = 180.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+margin_left = 129.0
+margin_top = 64.0
+margin_right = 190.0
+margin_bottom = 116.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="label_title" type="Label" parent="CenterContainer/VBoxContainer"]
+margin_right = 61.0
+margin_bottom = 24.0
+custom_fonts/font = ExtResource( 2 )
+text = "Title"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="label_subtitle" type="Label" parent="CenterContainer/VBoxContainer"]
+margin_top = 28.0
+margin_right = 61.0
+margin_bottom = 52.0
+custom_fonts/font = ExtResource( 2 )
+text = "Subtitle"
+align = 1

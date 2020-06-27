@@ -1,0 +1,13 @@
+{
+    "1":{"text":"Thank you, sorry for earlier", "command":"", "image_path":"res://spries/spr_patient3/spr_happy.png"},
+    "2":{"text":"It's okay, what happened to you?", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "3":{"text":"I was supposed to collect firewoods but I got lost and stuck here in the forest", "command":"", "image_path":"res://spries/spr_patient3/spr_neutral.png"},
+    "4":{"text":"Are you afraid of the dark?", "command":"", "image_path":"res://sprites/spr_mc/spr_neutral.png"},
+    "5":{"text":"Yes", "command":"", "image_path":"res://spries/spr_patient3/spr_neutral.png"},
+    "6":{"text":"Try to relax your breathing whilst in the dark, it'll help calm you down", "command":"transition", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "7":{"text":"...", "command":"", "image_path":"res://spries/spr_patient3/spr_eyeshut.png"},
+    "8":{"text":"I've calmed now, thank you", "command":"", "image_path":"res://spries/spr_patient3/spr_happy.png"},
+    "9":{"text":"When did this start?", "command":"", "image_path":"res://sprites/spr_mc/spr_neutral.png"},
+    "10":{"text":"Back when I'm still in grade school, I stared into the dark", "command":"", "image_path":"res://spries/spr_patient3/spr_neutral.png"},
+    "11":{"text":"And there I saw, the abyss staring back at me", "command":"transition", "image_path":"res://spries/spr_patient3/spr_neutral.png"}
+}

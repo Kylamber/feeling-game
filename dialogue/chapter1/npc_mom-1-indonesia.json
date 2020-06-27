@@ -1,0 +1,42 @@
+{
+    "1": {
+        "text": "Ah, dokter.",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "2": {
+        "text": "Bagaimana dia ?",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "3": {
+        "text": "Tidak baik, dia tidak memberitahu apa-apa",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "4": {
+        "text": "Saya tidak bisa melanjutkan",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "5": {
+        "text": "Saya diberi tahu kalau dia di bully",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "6": {
+        "text": "Dia mungkin marah pada dirinya sendiri",
+        "image_path": "res://sprites/spr_npc/npc_female_green.png",
+        "command": ""
+    },
+    "7": {
+        "text": "Hmm, begitu ya",
+        "image_path": "res://sprites/spr_mc/spr_neutral.png",
+        "command": ""
+    },
+    "8": {
+        "text": "Terima kasih bu",
+        "image_path": "res://sprites/spr_mc/spr_happy.png",
+        "command": "give_key"
+    }
+}

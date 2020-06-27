@@ -1,0 +1,118 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://dialogue/dialogue_system.gd" type="Script" id=1]
+[ext_resource path="res://ui/dialogue/dialogue_box.png" type="Texture" id=2]
+[ext_resource path="res://fonts/NanumPenScript-Regular.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://sfx/menu_097.wav" type="AudioStream" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 12
+font_data = ExtResource( 3 )
+
+[sub_resource type="Animation" id=3]
+resource_name = "rest"
+tracks/0/type = "value"
+tracks/0/path = NodePath("../AudioStreamPlayer:playing")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("dialogue_control/container_dialogue/dialogue_box/dialogue_text:percent_visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "show_text"
+tracks/0/type = "value"
+tracks/0/path = NodePath("dialogue_control/container_dialogue/dialogue_box/dialogue_text:percent_visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 1.0 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../AudioStreamPlayer:playing")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[node name="dialogue_system" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="dialogue_container" type="CanvasLayer" parent="."]
+
+[node name="dialogue_control" type="Control" parent="dialogue_container"]
+margin_right = 320.0
+margin_bottom = 180.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="container_dialogue" type="CenterContainer" parent="dialogue_container/dialogue_control"]
+margin_right = 320.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dialogue_box" type="TextureRect" parent="dialogue_container/dialogue_control/container_dialogue"]
+margin_right = 320.0
+margin_bottom = 80.0
+texture = ExtResource( 2 )
+
+[node name="dialogue_picture" type="TextureRect" parent="dialogue_container/dialogue_control/container_dialogue/dialogue_box"]
+margin_left = 46.0
+margin_top = 18.0
+margin_right = 90.0
+margin_bottom = 62.0
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dialogue_text" type="Label" parent="dialogue_container/dialogue_control/container_dialogue/dialogue_box"]
+margin_left = 95.0
+margin_top = 21.0
+margin_right = 282.0
+margin_bottom = 58.0
+custom_fonts/font = SubResource( 1 )
+autowrap = true
+percent_visible = 0.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dialogue_animation" type="AnimationPlayer" parent="dialogue_container"]
+anims/rest = SubResource( 3 )
+anims/show_text = SubResource( 2 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )

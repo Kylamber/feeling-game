@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://entities/boss_attacks/scripts/node_boss_attacks.gd" type="Script" id=1]
+[ext_resource path="res://sfx/Retro Explosion Short 15.wav" type="AudioStream" id=2]
+[ext_resource path="res://sfx/Retro Weapon Gun LoFi 03.wav" type="AudioStream" id=3]
+[ext_resource path="res://sfx/Retro Magic 06.wav" type="AudioStream" id=4]
+
+[node name="node_boss_attacks" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="sfx" type="Node2D" parent="."]
+
+[node name="sfx_explosion" type="AudioStreamPlayer2D" parent="sfx"]
+stream = ExtResource( 2 )
+
+[node name="sfx_pew" type="AudioStreamPlayer2D" parent="sfx"]
+stream = ExtResource( 3 )
+
+[node name="sfx_tp" type="AudioStreamPlayer2D" parent="sfx"]
+stream = ExtResource( 4 )

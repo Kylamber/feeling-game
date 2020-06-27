@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/main_theme_or_character_theme.wav-0dd1d5559556274c1ac9d6c001b89b4e.sample"
+
+[deps]
+
+source_file="res://ost/main_theme_or_character_theme.wav"
+dest_files=[ "res://.import/main_theme_or_character_theme.wav-0dd1d5559556274c1ac9d6c001b89b4e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=false
+edit/loop=true
+compress/mode=0

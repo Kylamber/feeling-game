@@ -1,0 +1,10 @@
+{
+    "1":{"text":"Aku menemukan ini dekat rumahmu", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "2":{"text":"Itu seharusnya ada di tempat sampah", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "3":{"text":"Apa kamu merasa kosong dalam hatimu?", "command":"", "image_path": "res://sprites/spr_mc/spr_concerned.png"},
+    "4":{"text":"Kamu gagal menghapusnya dari pikiranmu?", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "5":{"text":"Ku pikir dengan hanya mempunyai pacar baru dapat menghilangkannya dari pikiranku", "command":"", "image_path": "res://sprites/spr_patient2/spr_happy.png"},
+    "6":{"text":"tapi itu tidak berguna", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "7":{"text":"tidak ada yang bisa mengisi keinginanku", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "8":{"text":"aku telah kehilangan rasa kepuasan", "command":"transition", "image_path": "res://sprites/spr_patient2/spr_neutral.png"}
+}

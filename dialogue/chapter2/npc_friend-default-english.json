@@ -1,0 +1,4 @@
+{
+    "1":{"text":"Hello doctor", "command":"", "image_path":"res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "2":{"text":"Hope you success in healing her", "command":"", "image_path":"res://sprites/spr_npc/npc_female_winter_brown.png"}
+}

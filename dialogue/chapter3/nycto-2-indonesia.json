@@ -1,0 +1,7 @@
+{
+    "1":{"text":"Bagaimana saya bisa mengatasi ini, dokter?", "command":"", "image_path":"res://spries/spr_patient3/spr_neutral.png"},
+    "2":{"text":"Coba diam di tempat yang agak gelap", "command":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},
+    "3":{"text":"dan gelapkan lagi setelah nyaman", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "4":{"text":"seharusnya ini bisa membantu sedikit", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "5":{"text":"Terima kasih banyak, dokter", "command":"next_level", "image_path":"res://spries/spr_patient3/spr_happy.png"}
+}

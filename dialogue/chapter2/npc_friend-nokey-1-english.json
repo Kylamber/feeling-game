@@ -1,0 +1,16 @@
+{
+    "1":{"text":"Hello, excuse me", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "2":{"text":"Hello, is there anything I could help you with?", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "3":{"text":"May I ask you what had happened with Ms. Lien's man?", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "4":{"text":"Which one?", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "5":{"text":"There are more than one?", "command":"", "image_path": "res://sprites/spr_mc/spr_concerned.png"},
+    "6":{"text":"There was only one that she truly likes though", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "7":{"text":"The one that made her into that state", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "8":{"text":"What happened?", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "9":{"text":"He was jealous of her friend", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "10":{"text":"She converse a lot with him, joke together", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "11":{"text":"Was he trying to steal her ?", "command":"", "image_path": "res://sprites/spr_mc/spr_concerned.png"},
+    "12":{"text":"No, he wasn't. Her man also knows that", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "13":{"text":"But, seeing her happy like that. He questions his worth", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "14":{"text":"I see, thank you very much", "command":"give_key", "image_path": "res://sprites/spr_mc/spr_happy.png"}
+}

@@ -1,0 +1,13 @@
+{
+    "1":{"text":"Terima kasih, maaf barusan", "command":"", "image_path":"res://spries/spr_patient3/spr_happy.png"},
+    "2":{"text":"Gapapa, apa yang terjadi padamu?", "command":"", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "3":{"text":"Aku seharusnya mengumpulkan kayu bakar tapi aku tersesat dan terjebak di hutan ini", "command":"", "image_path":"res://spries/spr_patient3/spr_neutral.png"},
+    "4":{"text":"Apa kamu takut sama gelap?", "command":"", "image_path":"res://sprites/spr_mc/spr_neutral.png"},
+    "5":{"text":"Iya", "command":"", "image_path":"res://spries/spr_patient3/spr_neutral.png"},
+    "6":{"text":"Coba santaikan pernapasanmu, itu akan membantu menenangkanmu", "command":"transition", "image_path":"res://sprites/spr_mc/spr_happy.png"},
+    "7":{"text":"...", "command":"", "image_path":"res://spries/spr_patient3/spr_eyeshut.png"},
+    "8":{"text":"Aku sudah tenang, terima kasih", "command":"", "image_path":"res://spries/spr_patient3/spr_happy.png"},
+    "9":{"text":"Kapan ini mulai?", "command":"", "image_path":"res://sprites/spr_mc/spr_neutral.png"},
+    "10":{"text":"Ketika aku masih SD, aku menatap ke kegelapan", "command":"", "image_path":"res://spries/spr_patient3/spr_neutral.png"},
+    "11":{"text":"dan di sana aku melihat, kegelapan itu menatapiku", "command":"transition", "image_path":"res://spries/spr_patient3/spr_neutral.png"}
+}

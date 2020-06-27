@@ -1,0 +1,10 @@
+{
+    "1":{"text":"I did some digging. Your man was jealous with your friend?", "command":"", "image_path": "res://sprites/spr_mc/spr_concerned.png"},
+    "2":{"text":"Yes, he was", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "3":{"text":"Before, I didn't know why he was distancing himself from me", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "4":{"text":"He only did it because he thinks that he's not enough for me", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "5":{"text":"and that I'd be better with someone else", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "6":{"text":"What's your relationship with him now?", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "7":{"text":"We rarely chat anymore.", "command":"", "image_path": "res://sprites/spr_patient2/spr_neutral.png"},
+    "8":{"text":"Every day, he just gets farther and farther away from me", "command":"transition", "image_path": "res://sprites/spr_patient2/spr_neutral.png"}
+}

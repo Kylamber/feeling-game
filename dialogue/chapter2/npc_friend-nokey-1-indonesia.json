@@ -1,0 +1,16 @@
+{
+    "1":{"text":"Halo, permisi", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "2":{"text":"Halo, ada yang bisa dibantu?", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "3":{"text":"Bolehkah saya bertanya apa yang terjadi dengan pacarnya Bu Lien?", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "4":{"text":"Yang mana?", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "5":{"text":"Ada lebih dari satu?", "command":"", "image_path": "res://sprites/spr_mc/spr_concerned.png"},
+    "6":{"text":"Tapi hanya ada satu yang dia benar-benar cintai", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "7":{"text":"Yang membuatnya jadi seperti ini", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "8":{"text":"Apa yang terjadi?", "command":"", "image_path": "res://sprites/spr_mc/spr_neutral.png"},
+    "9":{"text":"Lelakinya cemburu sama teman Lien", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "10":{"text":"Lien sering berbicara dengannya, bercanda bersama", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "11":{"text":"Apakah temannya mencoba untuk mengambilnya?", "command":"", "image_path": "res://sprites/spr_mc/spr_concerned.png"},
+    "12":{"text":"Tidak. Lelakinya juga tahu tentang itu", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "13":{"text":"Tapi, melihatnya senang seperti itu. Dia mempertanyakan harga dirinya", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "14":{"text":"Oh begitu, terima kasih", "command":"give_key", "image_path": "res://sprites/spr_mc/spr_happy.png"}
+}

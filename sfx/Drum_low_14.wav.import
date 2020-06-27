@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Drum_low_14.wav-e9215330993ef3dae38a57cb35e6cf53.sample"
+
+[deps]
+
+source_file="res://sfx/Drum_low_14.wav"
+dest_files=[ "res://.import/Drum_low_14.wav-e9215330993ef3dae38a57cb35e6cf53.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

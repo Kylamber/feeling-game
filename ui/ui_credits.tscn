@@ -1,0 +1,210 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://fonts/Quantico-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://fonts/font_quantico.tres" type="DynamicFont" id=2]
+[ext_resource path="res://fonts/font_ubuntu.tres" type="DynamicFont" id=3]
+[ext_resource path="res://ui/scripts/ui_credits.gd" type="Script" id=4]
+[ext_resource path="res://fonts/Ubuntu-Regular.ttf" type="DynamicFontData" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 12
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 12
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 12
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 10
+use_filter = true
+extra_spacing_char = 1
+font_data = ExtResource( 5 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 12
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 12
+font_data = ExtResource( 1 )
+
+[node name="ui_credits" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="background" type="ColorRect" parent="."]
+margin_right = 320.0
+margin_bottom = 180.0
+color = Color( 0.0980392, 0.0980392, 0.0980392, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="label_credits" type="Label" parent="."]
+margin_left = 128.0
+margin_right = 192.0
+margin_bottom = 24.0
+custom_fonts/font = ExtResource( 2 )
+text = "CREDITS"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="vbox_music" type="VBoxContainer" parent="."]
+margin_left = 120.0
+margin_top = 64.0
+margin_right = 200.0
+margin_bottom = 154.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="label_music" type="Label" parent="vbox_music"]
+margin_right = 80.0
+margin_bottom = 18.0
+custom_fonts/font = SubResource( 1 )
+text = "Sound"
+align = 1
+
+[node name="label_list" type="Label" parent="vbox_music"]
+margin_top = 18.0
+margin_right = 80.0
+margin_bottom = 90.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.635294, 0.635294, 0.635294, 1 )
+text = "VGComposer
+CreaPracticus
+Kronbits
+Harvey656
+Adrian"
+align = 1
+
+[node name="vbox_art" type="VBoxContainer" parent="."]
+margin_left = 24.0
+margin_top = 112.0
+margin_right = 75.0
+margin_bottom = 152.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="label_art" type="Label" parent="vbox_art"]
+margin_right = 51.0
+margin_bottom = 18.0
+custom_fonts/font = SubResource( 2 )
+text = "Art"
+align = 1
+
+[node name="label_names" type="Label" parent="vbox_art"]
+margin_top = 18.0
+margin_right = 51.0
+margin_bottom = 30.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.635294, 0.635294, 0.635294, 1 )
+text = "Adrian"
+align = 1
+
+[node name="vbox_story" type="VBoxContainer" parent="."]
+margin_left = 240.0
+margin_top = 64.0
+margin_right = 288.0
+margin_bottom = 109.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="label_story" type="Label" parent="vbox_story"]
+margin_right = 48.0
+margin_bottom = 18.0
+custom_fonts/font = SubResource( 3 )
+text = "Story"
+align = 1
+
+[node name="label_names" type="Label" parent="vbox_story"]
+margin_top = 18.0
+margin_right = 48.0
+margin_bottom = 45.0
+custom_fonts/font = SubResource( 4 )
+custom_colors/font_color = Color( 0.635294, 0.635294, 0.635294, 1 )
+text = "Ragil
+Adrian"
+align = 1
+
+[node name="vbox_spthanks" type="VBoxContainer" parent="."]
+margin_left = 224.0
+margin_top = 112.0
+margin_right = 307.0
+margin_bottom = 172.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="label_special_thanks" type="Label" parent="vbox_spthanks"]
+margin_right = 83.0
+margin_bottom = 18.0
+custom_fonts/font = SubResource( 5 )
+text = "Special Thanks"
+align = 1
+
+[node name="label_names" type="Label" parent="vbox_spthanks"]
+margin_top = 18.0
+margin_right = 83.0
+margin_bottom = 60.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.635294, 0.635294, 0.635294, 1 )
+text = "NPF
+R
+"
+align = 1
+
+[node name="vbox_programmer" type="VBoxContainer" parent="."]
+margin_left = 16.0
+margin_top = 64.0
+margin_right = 86.0
+margin_bottom = 104.0
+custom_constants/separation = 0
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="label_prigrammer" type="Label" parent="vbox_programmer"]
+margin_right = 70.0
+margin_bottom = 18.0
+custom_fonts/font = SubResource( 6 )
+text = "Programmer"
+
+[node name="label_name" type="Label" parent="vbox_programmer"]
+margin_top = 18.0
+margin_right = 70.0
+margin_bottom = 30.0
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color = Color( 0.635294, 0.635294, 0.635294, 1 )
+text = "Adrian"
+align = 1
+
+[node name="btn_back" type="Button" parent="."]
+margin_right = 12.0
+margin_bottom = 20.0
+custom_fonts/font = ExtResource( 3 )
+text = "Back"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="btn_back" to="." method="_on_btn_back_pressed"]

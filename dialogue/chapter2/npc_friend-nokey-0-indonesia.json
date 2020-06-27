@@ -1,0 +1,7 @@
+{
+    "1":{"text":"Halo, permisi", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "2":{"text":"Ya?", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "3":{"text":"Rumah Bu Lien di mana ya?", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"},
+    "4":{"text":"Ada di ujung barat", "command":"", "image_path": "res://sprites/spr_npc/npc_female_winter_brown.png"},
+    "5":{"text":"Terima kasih", "command":"", "image_path": "res://sprites/spr_mc/spr_happy.png"}
+}

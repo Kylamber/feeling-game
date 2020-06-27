@@ -1,0 +1,8 @@
+{
+    "1":{"text":"MENJAUH DARI SINI", "command":"", "image_path":"res://spries/spr_patient3/spr_angry.png"},
+    "2":{"text":"Hey, hey. Tenang", "command":"", "image_path":"res://sprites/spr_mc/spr_concerned.png"},
+    "3":{"text":"MEREKA DI MANA-MANA, BERSEMBUNYI DI KEGELAPAN", "command":"", "image_path":"res://spries/spr_patient3/spr_angry.png"},
+    "4":{"text":"Apa kamu takut sama kegelapan?", "command":"", "image_path":"res://sprites/spr_mc/spr_neutral.png"},
+    "5":{"text":"SIAPA KAMU", "command":"", "image_path":"res://spries/spr_patient3/spr_angry.png"},
+    "6":{"text":"Aku psikolog. Ikuti aku, lebih cerah dekat tendaku", "command":"transition", "image_path":"res://sprites/spr_mc/spr_happy.png"}
+}
